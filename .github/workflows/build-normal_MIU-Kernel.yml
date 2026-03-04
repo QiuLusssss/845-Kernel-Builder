@@ -106,6 +106,7 @@ jobs:
 
           ARCH=$(echo $params | jq -r ".ARCH")
           CC=$(echo $params | jq -r ".CC")
+          KCFLAGS=-Wno-error
 
           args="-j${{ env.THREAD }}"
           if [ -n "${{ env.OUT_DIR }}" ]; then
