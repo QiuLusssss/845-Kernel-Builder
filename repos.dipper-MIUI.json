@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Xiaomi_Kernel_OpenSource-sdm845",
-      "repo": "https://github.com/diyishengqing/Xiaomi_Kernel_OpenSource-sdm845",
-      "branch": "88-zstd",
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "branch": "dipper-q-oss",
       "device": "dipper",
       "defconfig": "dipper_user_defconfig"
     },
